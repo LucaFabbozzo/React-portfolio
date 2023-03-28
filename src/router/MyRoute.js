@@ -5,12 +5,14 @@ import { Curriculum } from "../components/Curriculum";
 import { Services } from '../components/Services';
 import { Start } from '../components/Start';
 import { Contact } from '../components/Contact';
+import { Header } from '../components/layout/Header';
+import { Foot } from '../components/layout/Foot';
 
 export const MyRoute = () => {
   return (
     <BrowserRouter>
       {/* Header and Navbar */}
-
+      <Header />
       {/* Main */}
       <Routes>
         <Route path="/" element={<Start />} />
@@ -21,6 +23,7 @@ export const MyRoute = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       {/* Footer */}
+      <Foot />
     </BrowserRouter>
   );
 }
