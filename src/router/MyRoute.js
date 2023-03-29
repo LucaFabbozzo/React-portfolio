@@ -14,14 +14,18 @@ export const MyRoute = () => {
       {/* Header and Navbar */}
       <Header />
       {/* Main */}
-      <Routes>
-        <Route path="/" element={<Start />} />
-        <Route path="/start" element={<Start />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/curriculum" element={<Curriculum />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+
+      {/* container principal */}
+      <section class="content">
+        <Routes>
+          <Route path="/" element={<Start />} />
+          <Route path="/start" element={<Start />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/curriculum" element={<Curriculum />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </section>
       {/* Footer */}
       <Foot />
     </BrowserRouter>
