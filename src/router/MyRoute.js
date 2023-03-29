@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, BrowserRouter, NavLink } from "react-router-dom";
+import { Routes, Route, BrowserRouter, NavLink, Navigate } from "react-router-dom";
 import { Portfolio } from '../components/Portfolio';
 import { Curriculum } from "../components/Curriculum";
 import { Services } from '../components/Services';
@@ -18,7 +18,7 @@ export const MyRoute = () => {
       {/* container principal */}
       <section class="content">
         <Routes>
-          <Route path="/" element={<Start />} />
+          <Route path="/" element={<Navigate to="/start"/>} />
           <Route path="/start" element={<Start />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/services" element={<Services />} />
