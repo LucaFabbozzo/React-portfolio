@@ -17,12 +17,31 @@ code {
   margin: 0 auto;
 }
 
+// header nav
+
 .header {
   height: 132px;
   display: flex;
   align-items: center;
+  border-bottom: 3px solid #131313;
+  margin-bottom: 35px;
   .logo {
     flex-grow: 2;
+    display: flex;
+    span {
+      display: block;
+      font-size: 110px;
+      font-weight: bolder;
+      margin-top: -3px;
+    }
+    h3 {
+      display: block;
+      flex-basis: 40px;
+      margin-left: 10px;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-transform: uppercase;
+    }
   }
   nav {
     flex-grow: 1;
