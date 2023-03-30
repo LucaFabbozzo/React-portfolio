@@ -18,12 +18,17 @@ export const MyRoute = () => {
       {/* container principal */}
       <section className="content">
         <Routes>
-          <Route path="/" element={<Navigate to="/start"/>} />
+          <Route path="/" element={<Navigate to="/start" />} />
           <Route path="/start" element={<Start />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/services" element={<Services />} />
           <Route path="/curriculum" element={<Curriculum />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={
+            <div className='page'>
+              <h1 className='heading'>Error 404</h1>
+            </div>
+          } />
         </Routes>
       </section>
       {/* Footer */}
