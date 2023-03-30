@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 export const Start = () => {
   return (
-    <div>
+    <div className="home">
       <h1>
-        Hello, my name is Luca Fabbozzo and I'm a web developer based in Milan.
-        I specialize in providing programming and development services for
-        various types of web projects.
+        Hello, my name is <span>Luca Fabbozzo</span> and I'm a web developer
+        based in Milan. I specialize in providing <span>programming</span> and 
+        <span> development</span> services for various types of web projects.
       </h1>
       <h3>
         Whether it's building a website from scratch, improving an existing
@@ -18,7 +18,7 @@ export const Start = () => {
       </h3>
 
       <section className="lasts-works">
-        <h2>My lasts projects</h2>
+        <h2 className='heading'>My lasts projects</h2>
         <p>These are some of my web development works</p>
         <div className="works"></div>
       </section>

@@ -1,0 +1,64 @@
+// header nav
+
+.header {
+  height: 132px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #131313;
+  margin-bottom: 35px;
+
+  .logo {
+    flex-grow: 2;
+    display: flex;
+
+    span {
+      display: block;
+      font-size: 110px;
+      font-weight: bolder;
+      margin-top: -3px;
+    }
+
+    h3 {
+      display: block;
+      flex-basis: 40px;
+      margin-left: 10px;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-transform: uppercase;
+    }
+  }
+
+  nav {
+    flex-grow: 1;
+
+    ul {
+      height: 132px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+    }
+
+    li {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 17px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    a {
+      color: #141414;
+      text-decoration: none;
+
+      &:hover {
+        color: #fa4529;
+        transition: all 300ms;
+      }
+    }
+  }
+
+  .active {
+    color: #fa4529;
+  }
+}
