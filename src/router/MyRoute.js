@@ -16,7 +16,7 @@ export const MyRoute = () => {
       {/* Main */}
 
       {/* container principal */}
-      <section class="content">
+      <section className="content">
         <Routes>
           <Route path="/" element={<Navigate to="/start"/>} />
           <Route path="/start" element={<Start />} />
