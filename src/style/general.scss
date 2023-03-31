@@ -4,6 +4,10 @@
 @import './start';
 @import './portfolio';
 
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -19,10 +23,7 @@ code {
     monospace;
 }
 
-.layout {
-  width: 85%;
-  margin: 0 auto;
-}
+
 
 // content
 
@@ -31,6 +32,8 @@ code {
 }
 
 .page {
+  max-width: 80%;
+  margin: 0 auto;
   .heading {
         font-size: 55px;
         font-weight: bold;

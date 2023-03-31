@@ -3,7 +3,7 @@ import React from "react";
 export const Foot = () => {
   return (
     <footer>
-      Portfolio Luca Fabbozzo &copy; - 2013
+      Portfolio Luca Fabbozzo &copy; - 2023
     </footer>
   );
 };
