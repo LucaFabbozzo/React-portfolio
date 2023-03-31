@@ -19,21 +19,22 @@
     color: #6e6e6e;
     font-weight: lighter;
     line-height: 30px;
-  }
 
   a {
-    padding: 3px;
-    border-radius: 5px;
-    color: white;
-    background-color: #fa4529;
-    text-decoration: none;
-    transition: all 300ms;
-    margin-left: 10px;
-
-    &:hover {
-      background-color: #40a840;
+      padding: 3px;
+      border-radius: 5px;
+      color: white;
+      background-color: #fa4529;
+      text-decoration: none;
+      transition: all 300ms;
+      margin-left: 10px;
+  
+      &:hover {
+        background-color: #40a840;
+      }
     }
   }
+
 
   .heading {
     font-size: 40px;

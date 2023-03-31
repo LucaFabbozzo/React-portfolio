@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { ListWorks } from './ListWorks';
 
 export const Start = () => {
   return (
@@ -20,7 +21,7 @@ export const Start = () => {
       <section className="lasts-works">
         <h2 className='heading'>My lasts projects</h2>
         <p>These are some of my web development works</p>
-        <div className="works"></div>
+        <ListWorks limit="3"/>
       </section>
     </div>
   );
